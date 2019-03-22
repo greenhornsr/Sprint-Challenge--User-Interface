@@ -204,4 +204,15 @@ header nav a{
     background: dodgerblue;
 }
 
+/* About Page Specific CSS */
+.head-about-desc{
+    margin-bottom: 30px;
+    padding-bottom: 30px;   
+    border-bottom: 2px dotted gray;
+}
+
+.prim-bod-content{
+    display: flex;
+    flex-wrap: wrap;
+}
 
