@@ -214,5 +214,23 @@ header nav a{
 .prim-bod-content{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.body-strat, .body-hww, .body-pww, .body-collab{
+    margin-bottom: 30px;
+    width: 375px;
+    height: 400px;
+    border-bottom: 1px dotted red;
+}
+
+.but-lm{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: silver;
 }
 
