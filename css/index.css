@@ -144,3 +144,110 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*  My CSS Styling Begins HERE */
+
+header{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header nav{
+    margin-right: 30px;
+}
+
+header nav a{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    color: gray;
+}
+
+header nav a:hover{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.head-img {
+    margin: 30px 0;
+}
+
+.middle-content .box:nth-child(1){
+    background: teal;
+}
+
+.middle-content .box:nth-child(2){
+    background: gold;
+}
+
+.middle-content .box:nth-child(3){
+    background: cadetblue;
+}
+
+.middle-content .box:nth-child(4){
+    background: coral;
+}
+.middle-content .box:nth-child(5){
+    background: crimson;
+}
+.middle-content .box:nth-child(6){
+    background: forestgreen;
+}
+.middle-content .box:nth-child(7){
+    background: darkorchid;
+}
+
+.middle-content .box:nth-child(8){
+    background: hotpink;
+}
+
+.middle-content .box:nth-child(9){
+    background: indigo;
+}
+.middle-content .box:nth-child(10){
+    background: dodgerblue;
+}
+
+/* About Page Specific CSS */
+.head-about-desc{
+    margin-bottom: 30px;
+    padding-bottom: 30px;   
+    border-bottom: 2px dotted gray;
+}
+
+.prim-bod-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.body-strat, .body-hww, .body-pww, .body-collab{
+    margin-bottom: 30px;
+    width: 375px;
+    height: 410px;
+    border-bottom: 1px dotted red;
+}
+
+.but-lm{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: silver;
+}
+
+.but-lm:hover{
+    background-color: black;
+    color: white;
+}
+
+.bot-lwt {
+    margin-bottom: 30px;
+}
